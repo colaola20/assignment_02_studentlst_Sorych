@@ -13,6 +13,13 @@ public class Student {
         this.name = name;
     }
     // To Do 02: Add setters and getters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 
 
 
