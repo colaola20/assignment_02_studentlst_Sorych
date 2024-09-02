@@ -31,9 +31,9 @@ public class StudentLst {
          * @return String str
          */
         for(int i=0; i<students.length;i++) {
-            str += (i+1) + ". " + students[i].getName() + ", ";
+            str += "Printing the output " + "The student's name is " + students[i].getName() + " \n";
         }
-        return str + "\b\b";
+        return str;
     }
 
 
