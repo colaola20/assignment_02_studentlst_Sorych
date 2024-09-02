@@ -26,6 +26,10 @@ public class StudentLst {
         String str="";
 
         //To Do 03: complete the implementation of this method
+         /*
+         * for loop iterates through the students array and appends the student's name to String str using get method.
+         * @return String str
+         */
         for(int i=0; i<students.length;i++) {
             str += (i+1) + ". " + students[i].getName() + ", ";
         }
